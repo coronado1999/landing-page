@@ -1,0 +1,188 @@
+* Header */
+
+header {
+    background-color: #DBC897;
+}
+
+h1 {
+    position: absolute;
+    height: 84px;
+    left: 200px;
+    top: 115px;
+}
+
+header p {
+    position: absolute;
+    width: 371px;
+    height: 71px;
+    left: 200px;
+    top: 200px;
+}
+
+header a {
+    top: 65px;
+}
+
+.btn {
+    position: absolute;
+    left: 200px;
+    top: 285px;
+    z-index: 10;
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.self-portrait {
+    position: relative;
+    height: 225px;
+    width: 500px;
+    padding-left: 700px;
+    bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+
+nav ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    bottom: 135px;
+    margin-right: 4.5em;
+}
+
+nav ul li {
+    margin-left: 2.5em;
+    font-size: 24px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    border: 7px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+/* end of header */
+
+/* my work section */
+
+h2 {
+    text-align: center;
+}
+
+.work {
+    
+    overflow: hidden;
+    height: 350px;
+}
+
+.example {
+    margin-top: 2.5em;
+}
+
+.example img {
+    width: 170px;
+    height: 170px;
+}
+
+.box-example {
+    display: inline-block;
+    margin-left: 6.5em;
+    padding-left: 2.5em;
+}
+
+.example-family {
+    margin-left: 2.2em;
+}
+
+.example-graduation {
+    margin-left: 3.2em;
+}
+
+.example-weddings {
+    margin-left: 3.3em;
+}
+
+.example-product {
+    margin-left: 1.2em;
+}
+
+/* end of my work section */
+
+/* review section */
+
+.review {
+    background-color: #EAEAEA;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 13em;
+}
+
+.review p {
+    align-self: center;
+}
+
+/* end of review section */
+
+/* hire me section */
+
+.hire {
+    
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book {
+    background-color: #EAEAEA;
+    width: 501px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.hire-me p {
+    line-height: 0;
+}
+
+.book-btn {
+    text-decoration: none;
+    color: black;
+    border: 7px solid  #DBC897;
+    border-radius: 5px;
+    background-color: #DBC897;
+   
+}
+
+
+/* end of hire me section */
+
+/* footer */
+
+footer {
+    background-color: #DBC897;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end of footer */
